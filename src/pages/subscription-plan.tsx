@@ -6,7 +6,7 @@ import SubscriptionPlanComponent from "../component/subscriptionPlan";
 const SubscriptionPlan = () => {
     return (
         <div className="flex md:justify-center w-full justify-start  px-5 md:items-center items-start h-screen bg-[#FCFCFC]">
-            <div className="flex w-full md:mt-[600px] md:flex-row flex-col">
+            <div className="flex w-full md:mt-[500px] md:flex-row flex-col">
                <div className="md:block hidden">
                 <Sidebar />
                 </div>

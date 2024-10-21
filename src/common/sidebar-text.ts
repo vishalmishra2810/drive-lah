@@ -42,8 +42,8 @@ export const sideBarText = [
         isChecked: false
     },{
         id: 9,
-        text: "Subsciption",
-        path: "/subcription",
+        text: "Subscription",
+        path: "/subscription",
         isChecked: false
     },{
         id: 10,

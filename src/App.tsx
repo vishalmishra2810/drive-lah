@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/subscription" element={<SubscriptionPlan />} />
-        <Route path="/device" element={<DeviceManagement />} />
+        <Route path="/" element={<DeviceManagement />} />
       </Routes>
     </Router>
   );

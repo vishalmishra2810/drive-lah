@@ -6,7 +6,7 @@ import Sidebar from "../component/sidebar/sidebar";
 const DeviceManagement = () => {
     return (
         <div className="flex md:justify-center w-full justify-start  px-5 md:items-center items-start h-screen bg-[#FCFCFC]">
-            <div className="flex w-full md:mt-[900px] md:flex-row flex-col">
+            <div className="flex w-full md:mt-[900px]  md:flex-row flex-col">
                <div className="md:block hidden"> <Sidebar /></div>
                 <div className="block w-full md:hidden">
                     <RouteDropdown />
