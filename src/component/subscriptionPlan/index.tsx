@@ -4,7 +4,7 @@ import RadioButton from "./subscription/radio-button";
 
 const SubscriptionPlanComponent = () => {
     return (
-        <div className="bg-[#FFFFFF] rounded-[10px] p-[30px] mb-[60px]">
+        <div className="bg-[#FFFFFF] rounded-[10px] md:p-[30px] p-[8px] mb-[60px]">
             <h1 className="text-[#026786] text-[20px] font-bold">Subscription plan</h1>
             <p className="text-[#4A4A4A] text-[12px] font-regular">Select the ideal subscription plan for your listing.</p>
             <div className="w-[calc(100% + 60px)] h-[1px] bg-[#E6E6E6] mt-[10px] mx-[-30px]"></div>

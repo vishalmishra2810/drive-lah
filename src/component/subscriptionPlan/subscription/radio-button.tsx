@@ -9,7 +9,7 @@ const RadioButton = () => {
       <div className="flex ml-[-20px] items-center space-x-2">
         <label
           htmlFor="option1"
-          className={`pl-4 pr-[200px] py-2 border border-[#E6E6E6] rounded-[4px] opacity-100 cursor-pointer ${
+          className={`pl-4 md:pr-[200px] pr-[80px] py-2 border border-[#E6E6E6] rounded-[4px] opacity-100 cursor-pointer ${
             selectedOption === 'option1' ? 'border-blue-600 text-blue-600' : 'border-gray-300 text-gray-600'
           }`}
         >
@@ -32,7 +32,7 @@ const RadioButton = () => {
         </span>
         <label
           htmlFor="option2"
-          className={`pl-4 pr-[200px] py-2 border border-[#E6E6E6] rounded-[4px] opacity-100 cursor-pointer ${
+          className={`pl-4 md:pr-[200px] pr-[110px] py-2 border border-[#E6E6E6] rounded-[4px] opacity-100 cursor-pointer ${
             selectedOption === 'option2' ? 'border-blue-600 text-blue-600' : 'border-gray-300 text-gray-600'
           }`}
         >

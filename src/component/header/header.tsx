@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className="flex justify-between items-center h-[73px] bg-[#00A3AD] fixed top-0 left-0 right-0 z-50 px-[20px] md:px-[30px]">
             {/* Left side: Hamburger + Logo */}
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-16 md:gap-3">
                 {/* Hamburger menu for mobile */}
                 <div className="md:hidden">
                     <button onClick={toggleMenu}>

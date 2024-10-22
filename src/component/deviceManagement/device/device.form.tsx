@@ -4,7 +4,7 @@ const DeviceForm = () => {
   const [isOwnDevice, setIsOwnDevice] = useState(false);
 
   return (
-    <div className=" max-w-4xl mx-auto bg-white ">
+    <div className=" max-w-4xl mx-auto px-[30px] bg-white ">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
         <div className=''>
           <label className="block text-[#4A4A4A] text-[16px] opacity-100 mb-2">Device type</label>

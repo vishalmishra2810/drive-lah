@@ -10,6 +10,8 @@ const Sidebar = () => {
         navigate(`${item.path}`);
     };
 
+    console.log('navigate', navigate)
+
     return (
         <div className="h-screen md:ml-[200px] mt-10 cursor-pointer">
             {sideBarText.map((item) => (
