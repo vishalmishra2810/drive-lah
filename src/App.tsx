@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/subscription" element={<SubscriptionPlan />} />
         <Route path="/" element={<DeviceManagement />} />
+        <Route path="/device" element={<DeviceManagement />} />
       </Routes>
     </Router>
   );
