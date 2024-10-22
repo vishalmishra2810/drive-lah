@@ -74,7 +74,7 @@ const RouteDropdown = () => {
     return (
         <div className="relative w-full inline-block text-left mt-[90px]">
             <button
-                className="inline-flex  justify-between items-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="inline-flex border border-[#E6E6E6] rounded-[4px] opacity-100  justify-between items-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 onClick={toggleDropdown}
             >
                 {selectedRoute}

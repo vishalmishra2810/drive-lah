@@ -4,7 +4,7 @@ const DeviceForm = () => {
   const [isOwnDevice, setIsOwnDevice] = useState(false);
 
   return (
-    <div className=" max-w-4xl mx-auto px-[30px] bg-white ">
+    <div className=" max-w-4xl mx-auto md:px-[30px] px-[10px] bg-white ">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
         <div className=''>
           <label className="block text-[#4A4A4A] text-[16px] opacity-100 mb-2">Device type</label>
@@ -29,13 +29,13 @@ const DeviceForm = () => {
             <div className="flex justify-between items-center">
               <label className="text-[#4A4A4A] text-[20px] opacity-100">Bringing your own device?</label>
               <button
-                className={`h-[18px] w-[36px] rounded-full bg-[#00A3AD] focus:outline-none ${isOwnDevice ? 'bg-teal-500' : 'bg-gray-300'
+                className={`h-[18px] w-[36px] rounded-full bg-[#00A3AD] focus:outline-none ${isOwnDevice ? 'bg-teal-500' : 'bg-[#E6E6E6]'
                   }`}
                 onClick={() => setIsOwnDevice(!isOwnDevice)}
               >
                 <div
                   style={{ background: 'white' }}
-                  className={`h-[18px] w-[18px] !bg-white rounded-full shadow-md transform duration-300 ease-in-out ${isOwnDevice ? 'translate-x-6' : ''
+                  className={`h-[18px] w-[18px] !bg-white rounded-full shadow-md transform duration-300 ease-in-out ${isOwnDevice ? 'translate-x-6' : 'bg'
                     }`}
                 />
               </button>
